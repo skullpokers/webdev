@@ -31,6 +31,24 @@
             about how things break rather than only how they're supposed to work.
             When I'm not at a keyboard I'm usually lifting.
         </p>
+        <h2>Get in touch</h2>
+        <form action="/messages" method="post">
+        <p>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </p>
+        <p>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+        </p>
+        <p>
+            <button type="submit">Send message</button>
+        </p>
+        </form>
     </main>
     <footer>
         <p>
