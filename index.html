@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Georges — Software Engineering Student</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Georges</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>Software engineering student, heading for offensive security</h2>
+        </section>
+
+        <section id="about">
+            <h2>About me</h2>
+            <img src="images/georges.jpg"
+                 alt="Georges, sitting at a desk with a laptop open to a terminal">
+            <p>
+                I'm a software engineering student. Most of my coursework right now is
+                split between C++, Linux and Bash scripting, networking, and databases,
+                and I spend the time outside of class going deeper on the systems side
+                of all of it.
+            </p>
+            <p>
+                I'm working toward offensive security — pentesting and red teaming. That
+                means a lot of practice boxes, a home lab I keep rebuilding, and reading
+                about how things break rather than only how they're supposed to work.
+                When I'm not at a keyboard I'm usually doing combat sports.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>C++ — object-oriented programming</li>
+                <li>Linux and Bash scripting</li>
+                <li>Networking — routing, switching, VLANs</li>
+                <li>SQL and relational database design</li>
+                <li>HTML and CSS</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Get in touch</h2>
+            <form>
+                <p>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </p>
+                <p>
+                    <button>Send message</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p> 2026 Georges. Built with HTML and CSS.</p>
+    </footer>
+</body>
+</html>

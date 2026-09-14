@@ -1,0 +1,171 @@
+img,
+input,
+textarea,
+button {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #1f2733;
+  background: #e9eff8;
+
+  width: 80%;
+  margin: 0;
+  margin-left: 10%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.15;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+h2 + p {
+  margin-top: 8px;
+}
+
+header {
+  background: #1d4ed8;
+  color: #ffffff;
+  padding: 32px;
+  border-bottom: 6px solid #7c3aed;
+}
+
+header h1 {
+  color: #ffffff;
+}
+
+nav {
+  margin-top: 16px;
+}
+
+nav a {
+  color: #bfdbfe;
+  font-weight: 600;
+}
+
+main {
+  padding-top: 32px;
+}
+
+section {
+  padding: 28px;
+  margin-bottom: 24px;
+  background: #ffffff;
+  border-left: 8px solid ;
+}
+
+#intro {
+  background: #dbeafe;
+  border-left-color: #2563eb;
+}
+
+#intro h2 {
+  color: #1d4ed8;
+}
+
+#about {
+  border-left-color: #0d9488;
+}
+
+#about h2 {
+  color: #0f766e;
+}
+
+#skills {
+  background: #f3f0ff;
+  border-left-color: #7c3aed;
+}
+
+#skills h2 {
+  color: #6d28d9;
+}
+
+#contact {
+  border-left-color: #d97706;
+}
+
+#contact h2 {
+  color: #b45309;
+}
+
+.lead {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: #1e40af;
+  font-weight: 600;
+}
+
+.profile-photo {
+  width: 40%;
+  padding: 6px;
+  border: 4px solid #0d9488;
+  background: #ffffff;
+  margin-bottom: 16px;
+}
+
+.skills-list {
+  padding-left: 24px;
+}
+
+.skills-list li {
+  margin-bottom: 8px;
+  color: #4c1d95;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+.field label {
+  font-weight: 600;
+  color: #b45309;
+}
+
+input,
+textarea {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #1f2733;
+  background: #fffbf5;
+  border: 2px solid #fcd9a4;
+  padding: 10px;
+  margin-top: 6px;
+}
+
+.button {
+  width: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  background: #d97706;
+  border: 2px solid #b45309;
+  padding: 12px;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 24px;
+  background: #1f2733;
+  border-top: 6px solid #2563eb;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #cbd5e1;
+}
